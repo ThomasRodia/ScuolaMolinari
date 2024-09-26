@@ -3,6 +3,7 @@ const pos_2 = document.getElementById('Posizione2');
 const listaDisplay = document.getElementById('listaDisplay');
 const button = document.getElementById('buttonInsert');
 let lista = [1, 2, 3, 4, 5];
+//test rep
 console.log(lista);
 Array.prototype.swap = function (lista, pos1, pos2) {
   let a = lista[pos1];
